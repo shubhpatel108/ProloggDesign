@@ -1,0 +1,22 @@
+.Gendersignup {
+	background-color: #ffffff;
+	
+	width: 300px;
+	height: 45px;
+	border-radius: 5px;
+	color : #656D78;
+	font-family: inherit;
+	position: relative;
+}
+
+.gendericon {
+	padding-right: 5px;
+	padding-left: 5px;
+	color: #AAB2BD;
+	font-size: 15px;
+}
+
+.gendersetting{
+	padding-left: 0px;
+	
+}
