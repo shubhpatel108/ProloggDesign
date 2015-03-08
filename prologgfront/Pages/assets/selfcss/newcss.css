@@ -34,3 +34,37 @@
 	margin-left: 505px;
 	margin-top: 5px;
 }
+
+.spaceforleftpanel{
+	width: 250px;
+	height: 545px;
+	background-color: #f8f8f8;
+	position: absolute;
+	margin-top: -10px;
+}
+
+.mainpagecontent{
+
+margin-left: 0px;
+margin-top: 10px;
+}
+
+.menubarpad {
+position: relative;
+display: inline-block;
+vertical-align: middle;
+}
+
+.contentwrapper{
+	position: relative;
+	margin-left: 260px;
+	width: 1025px;
+	height: 100px;
+	margin-top: 10px;
+	background-color: #f8f8f8;
+}
+
+.btn-styling {
+	margin-left: 56px;
+	margin-right: 63px;
+}
