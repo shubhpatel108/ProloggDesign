@@ -37,7 +37,7 @@
 
 .spaceforleftpanel{
 	width: 250px;
-	height: 545px;
+	height: 100%;
 	background-color: #f8f8f8;
 	position: absolute;
 	margin-top: -10px;
@@ -59,7 +59,7 @@ vertical-align: middle;
 	position: relative;
 	margin-left: 260px;
 	width: 1025px;
-	height: 100px;
+	height: 200px;
 	margin-top: 10px;
 	background-color: #f8f8f8;
 }
