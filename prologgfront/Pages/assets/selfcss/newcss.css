@@ -65,6 +65,11 @@ vertical-align: middle;
 }
 
 .btn-styling {
-	margin-left: 56px;
-	margin-right: 63px;
+	margin-left: 57px;
+	margin-right: 60px;
+}
+
+.searchbtnstyle {
+	margin-left: 10px;
+	margin-top: 10px;
 }
