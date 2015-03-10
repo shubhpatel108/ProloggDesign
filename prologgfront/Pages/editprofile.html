@@ -6,7 +6,7 @@
 		<meta name="description" content="Sentir, Responsive admin and dashboard UI kits template">
 		<meta name="keywords" content="admin,bootstrap,template,responsive admin,dashboard template,web apps template">
 		<meta name="author" content="Ari Rusmanto, Isoh Design Studio, Warung Themes">
-		<title>Register | Prologg</title>
+		<title>Edit Profile | Prologg</title>
  
 		<!-- BOOTSTRAP CSS (REQUIRED ALL PAGE)-->
 		<link href="assets/css/bootstrap.min.css" rel="stylesheet">
@@ -59,26 +59,43 @@
 		BEGIN PAGE
 		===========================================================
 		-->
-		<div class="login-header text-center">
-			<img src="download.jpg" class="logo" alt="Logo">
-			</div>
+		<!-- <div class="login-header text-right"> -->
+			<img src="profile.gif" class="logo" alt="Logo" align ="right" style="width:150px;height:200px;margin-top: 50px">
 
+		<!-- </div> -->
+		<h1 class="edit" align="center">Edit Profile</h1>
+
+		<!-- <div class="form-group has-feedback lg left-feedback no-label">
+				  <input type="text" class="form-control no-border input-lg rounded" placeholder="EDIT PROFILE">
+				  <span class="fa fa-user form-control-feedback"></span>
+				</div>
+ -->
 		<div class="login-wrapper">
 			<form role="form">
 				<div class="form-group has-feedback lg left-feedback no-label">
-				  <input type="text" class="form-control no-border input-lg rounded" placeholder="Full name" autofocus>
-				  <span class="fa fa-male form-control-feedback"></span>
+				  <input type="email" class="form-control no-border input-lg rounded" placeholder="Email Address">
+				  <span class="fa fa-envelope form-control-feedback"></span>
 				</div>
 				<div class="form-group has-feedback lg left-feedback no-label">
-				  <input type="text" class="form-control no-border input-lg rounded" placeholder="Choose username">
+				  <input type="text" class="form-control no-border input-lg rounded" placeholder="First Name">
 				  <span class="fa fa-user form-control-feedback"></span>
+				</div>
+				<div class="form-group has-feedback lg left-feedback no-label">
+				  <input type="text" class="form-control no-border input-lg rounded" placeholder="Last Name">
+				  <span class="fa fa-user form-control-feedback"></span>
+				</div>
+				<div class="form-group has-feedback lg left-feedback no-label">
+				  <input type="password" class="form-control no-border input-lg rounded" placeholder="Change password">
+				  <span class="fa fa-lock form-control-feedback"></span>
+				</div>
+				<div class="form-group has-feedback lg left-feedback no-label">
+				  <input type="password" class="form-control no-border input-lg rounded" placeholder="Confirm password">
+				  <span class="fa fa-unlock form-control-feedback"></span>
 				</div>
 
 				<div class="form-group  lg gendersetting ">
 
 				  <p class="Gendersignup  no-border input-lg rounded" >
-				  
-				  	
 				  	<i class="fa fa-user  gendericon"></i>
 				  	Gender 
 				  <i class="fa fa-male  gendericon"></i>
@@ -88,27 +105,40 @@
 				  
 				  </p>
 				</div>
+
+
 				<div class="form-group has-feedback lg left-feedback no-label">
-				  <input type="email" class="form-control no-border input-lg rounded" placeholder="Enter email">
-				  <span class="fa fa-envelope form-control-feedback"></span>
+				  <input type="text" class="form-control no-border input-lg rounded" placeholder="City">
+				  <span class="fa fa-user form-control-feedback"></span>
 				</div>
 				<div class="form-group has-feedback lg left-feedback no-label">
-				  <input type="password" class="form-control no-border input-lg rounded" placeholder="Enter password">
-				  <span class="fa fa-lock form-control-feedback"></span>
+				  <input type="text" class="form-control no-border input-lg rounded" placeholder="State">
+				  <span class="fa fa-user form-control-feedback"></span>
 				</div>
 				<div class="form-group has-feedback lg left-feedback no-label">
-				  <input type="password" class="form-control no-border input-lg rounded" placeholder="re-enter password">
-				  <span class="fa fa-unlock form-control-feedback"></span>
+				  <input type="text" class="form-control no-border input-lg rounded" placeholder="Country">
+				  <span class="fa fa-user form-control-feedback"></span>
 				</div>
+
+
+				<div class="form-group  lg availablesetting ">
+
+				  <p class="Availablesignup  no-border input-lg rounded" >
+				  	<i class="fa fa-user  availableicon"></i>
+				  	Available 
+				  <i class="fa fa-yes  availableicon"></i>
+				  <input type="radio" name="Available" value="Yes" checked>Yes
+				  <i class="fa fa-no  availableicon"></i>
+				  <input type="radio" name="Available" value="No">No
+				  
+				  </p>
+				</div>
+
+
+				
+
 				<div class="form-group">
-				  <div class="checkbox">
-					<label class="inline-popups">
-					  <input type="checkbox" class="i-yellow-flat"> I accept <a href="register.html#text-popup" data-effect="mfp-zoom-in">Terms and conditions</a>
-					</label>
-				  </div>
-				</div>
-				<div class="form-group">
-					<button type="submit" class="btn btn-warning btn-lg btn-perspective btn-block">REGISTER</button>
+					<button type="submit" class="btn btn-warning btn-lg btn-perspective btn-block">Save</button>
 				</div>
 			</form>
 		</div><!-- /.login-wrapper -->
