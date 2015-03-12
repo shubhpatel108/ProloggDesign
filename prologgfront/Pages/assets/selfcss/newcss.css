@@ -59,7 +59,7 @@ vertical-align: middle;
 	position: relative;
 	margin-left: 260px;
 	width: 1025px;
-	height: 200px;
+	height: auto;
 	margin-top: 10px;
 	background-color: #f8f8f8;
 }
