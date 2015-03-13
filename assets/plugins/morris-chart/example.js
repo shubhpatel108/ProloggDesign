@@ -26,16 +26,21 @@ Morris.Bar({
     { y: 'Shubham', a: 100 },
     { y: 'Patel', a: 75 },
     { y: 'Hello', a: 50 },
-    { y: 'Hello', a: 50 },
-    { y: 'Hello', a: 50 },
-    { y: 'Hello', a: 50 },
-    { y: 'Hello', a: 50 },
-    { y: 'Hello', a: 50 },
   ],
   xkey: 'y',
   ykeys: ['a'],
   labels: ['Series A'],
-  resize: false,
+  resize: true,
   barColors: ['#3BAFDA', '#8CC152']
 });
 /********************************* END EXAMPLE MORRIS BAR *********************************/
+
+Morris.Donut({
+  element: 'morris-donut-example',
+  data: [
+    {label: "Download Sales", value: 12},
+    {label: "In-Store Sales", value: 30},
+    {label: "Mail-Order Sales", value: 20}
+  ],
+  colors: ['#E9573F', '#8CC152', '#F6BB42']
+});
