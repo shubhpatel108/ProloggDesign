@@ -49,6 +49,7 @@ margin-left: 340px;
 .logoline {
 	margin-top: 10px;	
 	margin-bottom: 20px;	
+	background-color: white;
 }
 
 .codeforcelogo {
@@ -95,4 +96,26 @@ text-transform: uppercase;
 padding: 10px 0;
 margin:  10px 0;
 color: #000000;
+}
+
+
+.newstyle {
+	background-color: white;
+}
+
+.first-row {
+	margin-top:30px;
+
+}
+
+.second-row {
+	
+}
+
+.langhead {
+	margin-top: 33%;
+}
+.git-logo {
+	background-color: #8CC152;
+	height : 150px;
 }
