@@ -113,7 +113,7 @@ $(document).ready(function() {
 			validating: 'glyphicon glyphicon-refresh'
 		},
 		fields: {
-			username: {
+			"user[email]": {
 				message: 'The username is not valid',
 				validators: {
 					notEmpty: {
