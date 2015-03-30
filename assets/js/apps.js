@@ -1249,8 +1249,8 @@ if ($('#realtime-chart-widget').length > 0){
 		});
 	}
 
-	if ($('.widget-newsticker').length > 0){
-		$('.widget-newsticker').newsTicker({
+	if ($('#widget-newsticker-0').length > 0){
+		$('#widget-newsticker-0').newsTicker({
 			row_height: 135,
 			max_rows: 3,
 			speed: 600,
@@ -1258,8 +1258,36 @@ if ($('#realtime-chart-widget').length > 0){
 			duration: 4000,
 			autostart: 1,
 			pauseOnHover: 1,
-			prevButton: $('#w-newsticker-prev'),
-			nextButton: $('#w-newsticker-next')
+			prevButton: $('#w-newsticker-prev-0'),
+			nextButton: $('#w-newsticker-next-0')
+		});
+	}
+
+	if ($('#widget-newsticker-1').length > 0){
+		$('#widget-newsticker-1').newsTicker({
+			row_height: 135,
+			max_rows: 3,
+			speed: 600,
+			direction: 'up',
+			duration: 4000,
+			autostart: 1,
+			pauseOnHover: 1,
+			prevButton: $('#w-newsticker-prev-1'),
+			nextButton: $('#w-newsticker-next-1')
+		});
+	}
+
+	if ($('#widget-newsticker-2').length > 0){
+		$('#widget-newsticker-2').newsTicker({
+			row_height: 135,
+			max_rows: 3,
+			speed: 600,
+			direction: 'up',
+			duration: 4000,
+			autostart: 1,
+			pauseOnHover: 1,
+			prevButton: $('#w-newsticker-prev-2'),
+			nextButton: $('#w-newsticker-next-2')
 		});
 	}
 
