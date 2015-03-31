@@ -7,7 +7,13 @@
 		<meta name="keywords" content="admin,bootstrap,template,responsive admin,dashboard template,web apps template">
 		<meta name="author" content="Ari Rusmanto, Isoh Design Studio, Warung Themes">
 		<title> Linked In | Prologg</title>
- 
+
+<!-- map -->
+		    <meta http-equiv="content-type" content="text/html; charset=UTF-8"/> 
+            <title>Google Maps Demo</title> 
+            <script type="text/javascript"
+            src="http://maps.google.com/maps/api/js?sensor=false"></script> 
+ <!-- map end -->
 		<!-- BOOTSTRAP CSS (REQUIRED ALL PAGE)-->
 		<link href="../../assets/css/bootstrap.min.css" rel="stylesheet">
 		
@@ -46,9 +52,43 @@
 		<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
 		<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
 		<![endif]-->
+<!-- Map script starts -->
+	 	 <script type="text/javascript"> 
+         function initialize() {
+
+      var myOptions = {
+        zoom: 4,
+        center: new google.maps.LatLng(22, 77),
+        mapTypeId: google.maps.MapTypeId.ROADMAP
+      }
+
+      var map = new google.maps.Map(document.getElementById("map"), myOptions);
+
+      var locations = [
+        ['Ahemdabad', 23.0300, 72.5800, 4, 113],
+        ['Delhi', 28.6139, 77.2090, 5, 114],
+        ['Mumbai', 18.9750, 72.8258, 3, 115],
+        ['Chennai', 13.0827, 80.2707, 2, 116],
+        ['Kolkata', 22.5667, 88.3667, 1, 117]
+      ];
+
+      for (var i = 0; i < locations.length; i++) {
+          var location = locations[i];
+          var myLatLng = new google.maps.LatLng(location[1], location[2]);
+          var marker = new google.maps.Marker({
+              position: myLatLng,
+              map: map,
+              icon: 'http://chart.apis.google.com/chart?chst=d_map_spin&chld=1|0|41E2BD|12|b|'+ locations[i][4],
+              title: location[0],
+              zIndex: location[3]
+          });
+      }
+    }
+    </script> 
+    <!-- map script ends here -->
 	</head>
  
-	<body class="tooltips">
+	<body class="tooltips"  style="margin:0px; padding:0px;" onload="initialize();">
 		
 		
 		
@@ -147,7 +187,7 @@
 			
 
 				<div class="spaceforleftpanel">
-					<div class="col-sm-6 col-md-6 col-lg-12" style="padding-left: 0px">
+					<div class="col-sm-6 col-md-6 col-lg-12" style="padding-left: 0px;padding-top: 60px;">
 	<div class="the-box no-border full card-info" id="left-profile-box">
 		<div class="the-box no-border text-center no-margin">
 			<img src="profile.gif" class="social-avatar has-margin has-light-shadow img-circle" alt="Avatar">
@@ -225,7 +265,7 @@
 				<!-- direction line starts here -->
 
 				<div class = "directionlinestyle">
-					<div style="margin-left : 15px; font-size : 15px;">
+					<div style="margin-left : 15px;margin-top: 15px; font-size : 15px;">
 						
 					<a href="homepage.html"> Home </a>
 					<i class="fa fa-chevron-right"></i>
@@ -243,14 +283,23 @@
 				<div class="logoline">
 					
 					<img src="download.png" class="linkedinlogo" height="64px" width="169px" >
-					<a href="index.html" class="handlecodeforces" > @ jayant12 </a>
-					<span>  (followed by 192 people)</span>
+					<a href="index.html" class="handlecodeforces" > @ ravisonagra </a>
+					<span>  (followed by 235 people)</span>
 					<hr class="seperator" style ="margin-top:5px;">
 
 				</div>
 
+				<!-- <div> class= "zeroth-row"> -->
+
+
+
+				</div>
+
 				<div class= "first-row">
-					
+					<!-- <div class="the-box no-border tags-cloud skill-cloud"> -->
+					 <div id="map" style="margin-left : 250px; width:1000px; height:400px;"></div> 
+
+
 				
 					<div class="the-box no-border tags-cloud skill-cloud">
 									<h4 class="small-heading more-margin-bottom">SKILL CLOUD</h4>
