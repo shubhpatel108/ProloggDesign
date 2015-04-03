@@ -196,7 +196,7 @@ padding-bottom: 55px;
 
 .first-paragraph{
 	font-size: 20px;
-	color: #656D78;
+	color: black;
 	font-family: 'Raleway', sans-serif;
 	margin-top: 15px;
 	margin-left: 13%;
@@ -285,4 +285,12 @@ margin-left: 39%;
 	margin-top: 25px;
 	margin-left: 39%;
 
+}
+.removeborder {
+	border: 0px #ffffff ! important;
+
+}
+
+.caracolor {
+	color: black !important;
 }
